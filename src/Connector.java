@@ -11,7 +11,7 @@ public class Connector {
 
 			new Thread(() -> {
 				try {
-					// 타겟 주소
+					// 타겟 주소.
 					URL url = new URL("http://192.168.41.43:8080/web1/hello.jsp");
 					InputStream in = url.openStream();
 					byte[] arr = new byte[1024*8];
